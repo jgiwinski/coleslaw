@@ -1,0 +1,103 @@
+/* green 	#20f600 */
+/* white 	#ffffff */
+/* black #000000 */
+/* ligth gray #bbbbbb */
+/* darker gray #aaaaaa */
+/* purple #710090 */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-bar {
+  padding: 1em;
+  background-color: #aaaaaa;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-gif {
+  hight: 75px;
+}
+
+.nav-buttons, .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.title {
+
+}
+
+button {
+  margin: 3%;
+  padding: 1em;
+  border-radius: 9px;
+  outline: none;
+}
+
+.hammy {
+  display: none;
+}
+
+main {
+  margin: 1em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 400px);
+  grid-gap: 1em;
+}
+
+section {
+  border: #aaaaaa solid;
+  border-radius: 10px;
+}
+
+.photos {
+  /* display: block; */
+  border-radius: 9px;
+  width: 100%;
+  height: 20em;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 900px) {
+
+/* TABLET */
+  .nav-bar {
+    background-color: #710090;
+  }
+
+  main {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 500px);
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 501px) {
+  body {
+    background: teal;
+  }
+
+  main {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 600px);
+  }
+
+  .nav-bar {
+    padding: 1em;
+  }
+
+  .nav-buttons {
+    display: none;
+  }
+
+  .hammy {
+    font-size: xxx-large;
+  }
+}
