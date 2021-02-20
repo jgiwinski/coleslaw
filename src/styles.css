@@ -1,16 +1,8 @@
-/* green 	#20f600 */
-/* white 	#ffffff */
-/* black #000000 */
-/* ligth gray #bbbbbb */
-/* darker gray #aaaaaa */
-/* purple #710090 */
-
 * {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
-
 
 .nav-bar {
   padding: 1em;
@@ -31,6 +23,10 @@
   flex-direction: row;
   justify-content: center;
   width: 30%;
+}
+
+.hammy {
+  display: none;
 }
 
 button {
@@ -69,16 +65,15 @@ p {
   padding: 10px;
 }
 
-.hammy {
-  display: none;
-}
-
 @media screen and (max-width: 900px) {
 
 /* TABLET */
-
 .title {
   display: none;
+}
+
+.nav-buttons {
+  width: 60%;
 }
 
 .logo {
@@ -108,6 +103,6 @@ p {
   }
 
   .hammy {
-    font-size: xxx-large;
+    display: flex;
   }
 }
