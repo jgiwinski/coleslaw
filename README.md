@@ -8,6 +8,19 @@ At the top of the page the user will notice three (currently nonfunctional) butt
 
 The site is responsive and can easily be viewed on a desktop, laptop, tablet, and mobile device. 
 
+#### Ok Let's Get Real
+The project was to create a responsive page based off this image. 
+<img src="https://frontend.turing.io/assets/images/static-comp-challenge-2.jpg" height="700px">
+
+The final desktop view: 
+<img src="https://github.com/jgiwinski/coleslaw/main/desktop">
+
+The final tablet view: 
+<img src="https://github.com/jgiwinski/coleslaw/main/tablet">
+
+The final mobile view: 
+<img src="https://github.com/jgiwinski/coleslaw/main/mobile">
+
 ### Contributor 
 
 Julia Iwinski: Github -> https://github.com/jgiwinski/
