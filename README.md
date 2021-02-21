@@ -13,13 +13,13 @@ The project was to create a responsive page based off this image.
 <img src="https://frontend.turing.io/assets/images/static-comp-challenge-2.jpg" height="700px">
 
 The final desktop view: 
-<img src="https://github.com/jgiwinski/coleslaw/main/desktop">
+<img src="https://github.com/jgiwinski/coleslaw/main/desktop.png">
 
 The final tablet view: 
-<img src="https://github.com/jgiwinski/coleslaw/main/tablet">
+<img src="https://github.com/jgiwinski/coleslaw/main/tablet.png">
 
 The final mobile view: 
-<img src="https://github.com/jgiwinski/coleslaw/main/mobile">
+<img src="https://github.com/jgiwinski/coleslaw/main/mobile.png">
 
 ### Contributor 
 
