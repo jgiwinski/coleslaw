@@ -10,7 +10,7 @@
   height: 90px;
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 0 .75em #808080;
+  box-shadow: 0 0 .75em #E5B44B;
 }
 
 .title {
@@ -47,7 +47,7 @@ main {
 
 section {
   position: relative;
-  border: #aaaaaa solid;
+  border: #E5B44B solid;
   border-radius: 10px;
   box-shadow: 0 0 .75em #808080;
   display: flex;
