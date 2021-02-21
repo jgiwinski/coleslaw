@@ -5,6 +5,10 @@
 }
 
 .nav-bar {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  width: 100%;
   padding: 1em;
   background-color: #aaaaaa;
   height: 90px;
@@ -16,6 +20,11 @@
 .title {
   padding-top: 3%;
   font-size: 2em;
+}
+
+.c-gif {
+  width: 6em;
+  height: auto;
 }
 
 .nav-buttons, .logo, button {
@@ -53,7 +62,7 @@ main {
   margin: 1em;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 450px);
+  grid-template-rows: repeat(4, 475px);
   grid-gap: 1.5em;
 }
 
@@ -77,7 +86,7 @@ section {
 
  .rating {
   position: absolute;
-  bottom: 8em;
+  bottom: 10em;
   left: 0;
 }
 
@@ -98,6 +107,15 @@ p {
   padding: 10px;
 }
 
+.comments {
+  width: 94%;
+  padding: 5px 10px;
+  background-color: #aaaaaa;
+  height: 10%;
+  text-shadow: 0 0 1em black;
+  font-family: 'Neucha', cursive;
+}
+
 @media screen and (max-width: 900px) {
 
 /* TABLET */
@@ -115,7 +133,7 @@ p {
 
   main {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 450px);
+    grid-template-rows: repeat(6, 475px);
   }
 }
 
@@ -124,7 +142,7 @@ p {
 
   main {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(8, 450px);
+    grid-template-rows: repeat(8, 475px);
   }
 
   .nav-bar {
@@ -137,5 +155,9 @@ p {
 
   .hammy {
     display: flex;
+  }
+
+  .comments {
+    width: 96%;
   }
 }
